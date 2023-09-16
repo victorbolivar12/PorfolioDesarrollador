@@ -1,0 +1,33 @@
+import { AiOutlineCalendar, AiFillGithub } from "react-icons/ai";
+import { FaBookReader } from "react-icons/fa";
+
+const Card = (props) => {
+  return (
+    <div className="w-[100%] flex  sm:flex-row border shadow-xl  bg-white rounded-lg mb-4">
+       
+        <img src={props.img} alt="logo" className='h-48 w-full object-cover md:h-full md:w-48 p-4'/>
+        
+        <div className='px-4 pt-3 pb-5'>
+            <h2 className='font-semibold text-md mb-1'>{props.name}</h2>
+            <div className='flex mb-2'>
+                <AiOutlineCalendar className='mr-1 text-slate-600 text-md'/>
+                <p className='text-sm'>{props.startDate} - {props.endDate}</p>
+            </div>
+            <p className='text-sm mb-3'>{props.description}</p>
+            <div className='flex gap-3'>
+                <a href="" 
+                className='text-sm bg-green-500 py-1 px-3 rounded-full text-white font-light hover:bg-green-600 flex'>
+                    <FaBookReader className="mr-1 mt-0.5"/>
+                    Leer mas
+                </a>
+                <a href="" className='text-sm bg-green-500 py-1 px-3 rounded-full text-white font-light hover:bg-green-600 flex'>
+                    <AiFillGithub className="mr-1 mt-0.5"/>
+                    Ver Proyecto
+                </a>
+            </div>
+        </div>
+    </div>
+  )
+}
+
+export default Card
