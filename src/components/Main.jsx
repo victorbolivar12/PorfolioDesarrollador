@@ -7,6 +7,7 @@ import Rp from './../assets/piezas-de-rompecabezas.png'
 import Ce from './../assets/comunicacion-efectiva.png'
 import Ac from './../assets/aprendiendo.png'
 
+
 const Main = () => {
 
   const tecnologis = [
