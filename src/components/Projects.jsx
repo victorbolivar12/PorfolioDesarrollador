@@ -63,6 +63,7 @@ const Projects = () => {
               Paragraph2="La empresa Orinoco Iron, como compañía productora de mineral de hierro, cuenta con una importante cantidad de equipos de impresión y consumibles en sus diferentes áreas. Sin embargo, la gestión de los consumibles y el control de impresiones no estaban optimizados, lo que llevó a la empresa a plantear la necesidad de desarrollar módulos que permitieran automatizar estos procesos y mejorar su eficiencia."
               Paragraph3="Los resultados obtenidos en este proyecto fueron significativos, permitiendo a la empresa mejorar la eficiencia y eficacia en la gestión de consumibles y el control de impresiones, reduciendo los tiempos y costos asociados a estos procesos"
               tecnologis={Project1Tecnologis}
+              link="https://drive.google.com/file/d/13yT9Py-uQmkuDrIJC1VCoB7LRPKHffaz/view?usp=sharing"
             />}
         />
         <Card
@@ -82,6 +83,7 @@ const Projects = () => {
               Paragraph1="El principal objetivo de este proyecto fue desarrollar una plataforma que permitiera a IOYNE gestionar eficazmente su relación con los clientes. Esta fue diseñada a medida para satisfacer las necesidades específicas de la empresa y se centro en la gestión de usuarios, clientes y cotizaciones."
               Paragraph2="La plataforma se desarrollo utilizando tecnologías de última generación para garantizar escalabilidad y accesibilidad. Cuenta con una interfaz de usuario intuitiva y fácil de usar que permite a los empleados de IOYNE acceder y gestionar fácilmente los datos, cotizaciones y clientes potenciales de la empresa."
               tecnologis={Project2Tecnologis}
+              link = "https://github.com/victorbolivar12/Proyecto_Empresa_IOYNE"
             />}
         />
         <Card
@@ -101,6 +103,7 @@ const Projects = () => {
               Paragraph1="Este es un proyecto colaborativo en el cual hemos desarrollado una aplicación web para facilitar la reserva de citas en la clínica psicológica. Nuestro enfoque se baso en aprovechar la tecnología digital para mejorar la accesibilidad y la eficiencia en la gestión de citas"
               Paragraph2="La aplicación proporciona a los pacientes una forma conveniente de programar citas en línea, consultando la disponibilidad de horarios en tiempo real y brindando la posibilidad de elegir al profesional que deseen"
               tecnologis={Project2Tecnologis}
+              link='https://github.com/victorbolivar12/ProyectoDesarrolloWeb2023'
             />}
         />
         <Card

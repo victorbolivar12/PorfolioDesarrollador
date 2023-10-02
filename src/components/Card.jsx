@@ -15,7 +15,7 @@ const Card = (props) => {
 
     return (
         <>
-            <div className="max-w-md bg-white rounded-xl shadow-md overflow-hidden md:max-w-3xl">
+            <div className="max-w-md bg-white rounded-xl shadow-md overflow-hidden md:max-w-5xl">
                 <div className="md:flex">
                     <div className="md:shrink-0">
                         <img src={props.img} alt="logo" className='h-48 w-full object-cover md:h-full md:w-48 p-4' />
