@@ -49,7 +49,7 @@ const Projects = () => {
           name="Desarrollador Web"
           img={OrinocoIron}
           startDate="Diciembre 2022"
-          endDate="Abril 2023"
+          endDate="Marzo 2023"
           description="Este proyecto de pasantía representa una contribución significativa hacia la obtención del título de ingeniería informática. Constituye una demostración tangible y aplicada del conocimiento adquirido a lo largo de mi formación"
           link="https://drive.google.com/file/d/13yT9Py-uQmkuDrIJC1VCoB7LRPKHffaz/view?usp=sharing"
           isOpen={isOpen}
@@ -69,8 +69,8 @@ const Projects = () => {
         <Card
           name="Desarrollador Full Stack"
           img={Yione}
-          startDate="Enero 2023"
-          endDate="Febrero 2023"
+          startDate="Febrero 2023"
+          endDate="Junio 2023"
           description="Este proyecto, desarrollado de manera independiente como freelance, se concibió como parte integral de una evaluación de competencias en tecnologías de alto rendimiento"
           link="https://github.com/victorbolivar12/Proyecto_Empresa_IOYNE"
           isOpen={isOpen1}
